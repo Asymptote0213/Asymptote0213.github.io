@@ -1,3 +1,5 @@
+title: Android Studio——Activity组件
+
 # Android Studio学习之Activity组件实验报告
 
 实验目标：
