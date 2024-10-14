@@ -1,4 +1,4 @@
-title：Android Studio——ActivityResultLauncher
+title: Android Studio——ActivityResultLauncher
 
 
 
