@@ -1,7 +1,7 @@
 ---
-
 title: Android Studio——ActivityResultLauncher
 typora-root-url: ./..\typora-user-images
+abbrlink: bd6c7271
 ---
 
 # 【Android Studio】ActivityResultLauncher

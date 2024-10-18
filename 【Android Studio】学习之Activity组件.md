@@ -1,6 +1,8 @@
 ---
 title: Android Studio——Activity组件
-tags: Android Studio 
+tags: Android Studio
+abbrlink: f0a17f36
+typora-root-url: ./..\typora-user-images
 ---
 
 # Android Studio学习之Activity组件实验报告
