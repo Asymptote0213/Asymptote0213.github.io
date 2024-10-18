@@ -1,7 +1,7 @@
 ---
 
 title: Android Studio——ActivityResultLauncher
-
+typora-root-url: ./..\typora-user-images
 ---
 
 # 【Android Studio】ActivityResultLauncher
@@ -122,11 +122,11 @@ ActivityB_layout:
 
 ActivityA界面：
 
-![image-20241017082745539](C:\Users\张佳悦\AppData\Roaming\Typora\typora-user-images\image-20241017082745539.png)
+![](/image-20241017082745539.png)
 
 点击button<push to B>显示：
 
-![image-20241017082833606](C:\Users\张佳悦\AppData\Roaming\Typora\typora-user-images\image-20241017082833606.png)
+![](/image-20241017082833606.png)
 
 显示成功！
 
@@ -159,7 +159,9 @@ private ActivityResultLauncher<Intent> someActivityResultLauncher = registerForA
 
 如图：
 
-![image-20241017085614736](C:\Users\张佳悦\AppData\Roaming\Typora\typora-user-images\image-20241017085614736.png)
+![](/image-20241017085614736.png)
+
+
 
 > [!NOTE]
 >
@@ -167,7 +169,7 @@ private ActivityResultLauncher<Intent> someActivityResultLauncher = registerForA
 
 （2）**在`FirstActivity`中启动`SecondActivity`**：使用你定义的`ActivityResultLauncher`来启动`SecondActivity`。
 
-![image-20241017085737475](C:\Users\张佳悦\AppData\Roaming\Typora\typora-user-images\image-20241017085737475.png)
+![](/image-20241017085737475.png)
 
 （3）**在`SecondActivity`中设置结果数据并返回**：
 
@@ -189,11 +191,13 @@ returnButton.setOnClickListener(new View.OnClickListener() {
 
 按照以上格式写我们自己的代码如下：
 
-![image-20241017085823464](C:\Users\张佳悦\AppData\Roaming\Typora\typora-user-images\image-20241017085823464.png)
+![](/image-20241017085823464.png)
+
+
 
 运行结果（从B点击按钮跳转A）
 
-![image-20241017083611450](C:\Users\张佳悦\AppData\Roaming\Typora\typora-user-images\image-20241017083611450.png)
+![](/image-20241017083611450.png)
 
 跳转成功！
 
